@@ -1,0 +1,46 @@
+body{
+
+font-family: 'Helvetica', 'Arial', sans-serif;
+color: darkslategray;
+background-color: azure;
+
+}
+
+h1 {
+    text-align: center;
+    color: darkcyan;
+    font-size: 75px;
+}
+h2 {
+    text-align: center;
+    color: slategrey;
+  }
+  
+  table {
+    border: 2px solid darkslategrey;
+    width: 750px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+  }
+  
+  thead {
+    color: azure;
+    background-color: lightslategrey;
+  }
+
+  td {
+
+    border-top: 2px solid darkslategrey;
+
+  }
+
+  .ref {
+    font-family: monospace;
+    text-align: center;
+    color:black;
+    background-color: skyblue;
+    width: 80px;
+
+  }
+  
+  
