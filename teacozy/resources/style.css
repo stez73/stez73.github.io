@@ -12,25 +12,21 @@
 
     h2 {
         font-size: 1.4em;
-        background-color: transparent;
+        background-color: transparent ;
 
     }
     
     h3 {
         font-size: 1.2em;
-        background-color: transparent;
+
 
     }
     
     h5 {
         font-size: 0.8em;
-        background-color: transparent;
 
     }
-    p{
-        background-color: transparent;
-
-    }
+   
 
 
 /*Header Section*/
@@ -173,15 +169,14 @@ main {
     display: flex;
     justify-content: center;
     margin: auto;   
-    background-color: transparent ;
 
         
         }
 
 
 .container-location-header {
-    
     background-color: transparent ;
+
     z-index: 10;
 }
 
@@ -192,7 +187,7 @@ main {
 
 .container-location-content {
     position: absolute;
-    background-color: transparent;
+    background-color: transparent ;
 
 }
 
