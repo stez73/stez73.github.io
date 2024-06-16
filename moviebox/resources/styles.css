@@ -1,0 +1,234 @@
+* {
+    font-family: 'Bungee Hairline','Abel', Arial, sans-serif;
+    font-size: 18px;
+    color: whitesmoke;
+    box-sizing: border-box;
+
+}
+
+body {
+    margin: 0;
+    font-family: 'Bungee Hairline';
+    background-color: rgb(2, 2, 7);
+    color: whitesmoke;
+    font-size: 18px;
+    text-align: center;
+  }
+
+a {
+
+    color: whitesmoke;
+    text-decoration: none;
+    font-size: 1.15rem;
+
+  }
+
+a:hover {
+    color: grey;
+} 
+  
+h1{
+    font-family: 'Black Ops One';
+    font-size: 3.5rem;
+    color: rgb(154, 22, 22);
+
+}
+
+h2{
+  font-family: 'Black Ops One';
+  font-size: 1.75rem;
+}
+
+h3 {
+
+  font-size: 0.95rem;
+
+}
+
+
+  h4,
+  h5,
+  p {
+    font-family: 'Abel';
+    font-size: 17px;
+    margin: 0;
+  }
+
+.headercontainer {
+
+  width: 100% ;
+  z-index: 5;
+
+
+}
+
+.header {
+    background-image: url("https://t3.ftcdn.net/jpg/01/39/56/08/360_F_139560827_QGSSr2OkgwBYfqCr8JXARuPuQysgmJC3.jpg");
+    background-size: auto 100%;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;  
+    padding: 30px 0 5px 0;
+    height: auto;
+
+
+  }
+  
+.navbar {
+    display: flex;
+    justify-content: center;  
+
+}
+  
+.navbar h2 {
+    
+    display: inline-block;
+    padding: 0 25px 25px 25px;
+
+  }
+
+.main {
+
+    opacity: 0.9;
+
+  }
+
+.banner {
+
+    display: flex;
+    min-height: 500px;
+    background-image: url("https://www.denofgeek.com/wp-content/uploads/2024/02/deadpool-3-trailer-wolverine.jpg");
+    object-fit: cover;
+    background-size: 100% auto ;
+    background-repeat: no-repeat;
+    padding-top: 25px;
+  }
+  
+.banner-content {
+
+    background-color: black;
+    text-align: center;
+    margin: 0 20px 0 20px;
+    border-radius: 5px 30px 10px 15px;
+    width: 100%;
+    height: 10%;
+    opacity: 65%;
+
+  }
+
+  .banner-mcontent {
+
+    background-color: rgb(46, 51, 57);
+    text-align: center;
+    margin: 0 20px 0 20px;
+    border-radius: 2px 15px 7px 10px;
+    width: auto;
+    height: 10%;
+    opacity: 65%;
+
+  }
+
+
+  .banner-acontent {
+
+    background-color: rgb(25, 31, 36);    
+    text-align: center;
+    margin: 0 20px 0 20px;
+    border-radius: 2px 15px 7px 10px;
+    width: auto;
+    height: 10%;
+    opacity: 65%;
+
+  }
+
+
+  #themovies {
+    background-color: rgb(25, 31, 36);    
+    background-size: auto 100%;
+    height: auto ;
+    margin: 25px 25px;
+    padding-top: 20px;
+    margin-bottom: 25px;
+  }
+  
+  .movies {
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px 50px 10px 50px;
+    opacity: 85%;
+  }
+  
+  .movie {
+    display: flex;
+    flex-wrap: wrap;
+    flex-flow: column;
+    justify-content: center;
+    padding: 50px;
+
+  }
+  
+  #movie-img {
+    
+    width: 350px;
+    flex-grow: 2;
+    height: auto;
+
+  }
+  
+  #movie-caption {
+
+    padding-top: 15px;
+    text-align: center;
+
+  
+
+  }
+
+
+  .actors {
+    background-image: url("https://t3.ftcdn.net/jpg/01/39/56/08/360_F_139560827_QGSSr2OkgwBYfqCr8JXARuPuQysgmJC3.jpg");
+    background-size: auto 100%;
+    margin-top: 20px;
+    padding-top: 75px;
+    padding-bottom: 75px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .actor {
+    padding: 20px;
+    color: white;
+    flex-basis: 280px;
+
+  }
+  
+  .actor img {
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 5px 0 5px;
+    width: 200px;
+    height: auto;
+    object-fit: contain;
+    opacity: 50%;
+    border: 5px seashell;
+
+
+  }
+
+
+  .contact {
+    padding-top: 20px;
+    text-align: right;
+    margin-right: 50px;
+}
+
+
+.copyright {
+    text-align: left;
+    padding: 0 0 20px 20px;
+
+}
